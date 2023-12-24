@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{2CB8BB7F-7215-49D0-8510-68A3E8817EA2}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "CircusHorror",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}

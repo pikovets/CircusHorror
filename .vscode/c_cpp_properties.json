@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "CircusHorrorEditor Editor Linux Development (CircusHorror)",
+            "intelliSenseMode": "clang-x64",
+            "compileCommands": "/home/timur/Documents/Unreal Projects/CircusHorror/.vscode/compileCommands_CircusHorror.json",
+            "cStandard": "c17",
+            "cppStandard": "c++14"
+        },
+        {
+            "name": "Linux",
+            "intelliSenseMode": "clang-x64",
+            "compileCommands": "/home/timur/Documents/Unreal Projects/CircusHorror/.vscode/compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,37 @@
+[
+	{
+		"file": "/home/timur/Documents/Unreal Projects/CircusHorror/Source/CircusHorror/CircusHorror.Build.cs",
+		"command": "/home/timur/Programming/Tools/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/timur/Documents/Unreal Projects/CircusHorror/.vscode/compileCommands_Default/CircusHorror.176.rsp\"",
+		"directory": "/home/timur/Programming/Tools/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/timur/Documents/Unreal Projects/CircusHorror/Source/CircusHorror/CircusHorror.cpp",
+		"command": "/home/timur/Programming/Tools/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/timur/Documents/Unreal Projects/CircusHorror/.vscode/compileCommands_Default/CircusHorror.176.rsp\"",
+		"directory": "/home/timur/Programming/Tools/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/timur/Documents/Unreal Projects/CircusHorror/Source/CircusHorror/CircusHorror.h",
+		"command": "/home/timur/Programming/Tools/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/timur/Documents/Unreal Projects/CircusHorror/.vscode/compileCommands_Default/CircusHorror.176.rsp\"",
+		"directory": "/home/timur/Programming/Tools/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/timur/Documents/Unreal Projects/CircusHorror/Source/CircusHorror/Private/Character/FirstPersonCharacter.cpp",
+		"command": "/home/timur/Programming/Tools/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/timur/Documents/Unreal Projects/CircusHorror/.vscode/compileCommands_Default/CircusHorror.176.rsp\"",
+		"directory": "/home/timur/Programming/Tools/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/timur/Documents/Unreal Projects/CircusHorror/Source/CircusHorror/Private/CircusHorrorGameModeBase.cpp",
+		"command": "/home/timur/Programming/Tools/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/timur/Documents/Unreal Projects/CircusHorror/.vscode/compileCommands_Default/CircusHorror.176.rsp\"",
+		"directory": "/home/timur/Programming/Tools/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/timur/Documents/Unreal Projects/CircusHorror/Source/CircusHorror/Public/Character/FirstPersonCharacter.h",
+		"command": "/home/timur/Programming/Tools/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/timur/Documents/Unreal Projects/CircusHorror/.vscode/compileCommands_Default/CircusHorror.176.rsp\"",
+		"directory": "/home/timur/Programming/Tools/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/timur/Documents/Unreal Projects/CircusHorror/Source/CircusHorror/Public/CircusHorrorGameModeBase.h",
+		"command": "/home/timur/Programming/Tools/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/timur/Documents/Unreal Projects/CircusHorror/.vscode/compileCommands_Default/CircusHorror.176.rsp\"",
+		"directory": "/home/timur/Programming/Tools/UnrealEngine/Engine/Source"
+	}
+]

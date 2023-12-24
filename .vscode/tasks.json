@@ -1,0 +1,1710 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "CircusHorror Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Mac",
+				"Debug",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Mac",
+				"Debug",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Mac",
+				"Debug",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Mac",
+				"DebugGame",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Mac",
+				"DebugGame",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Mac",
+				"DebugGame",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Mac",
+				"Development",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Mac",
+				"Development",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Mac",
+				"Development",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Mac",
+				"Shipping",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Mac",
+				"Shipping",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Mac",
+				"Shipping",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Mac",
+				"Test",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Mac",
+				"Test",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Mac",
+				"Test",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"IOS",
+				"Debug",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"IOS",
+				"Debug",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"IOS",
+				"Debug",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"IOS",
+				"DebugGame",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"IOS",
+				"DebugGame",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"IOS",
+				"DebugGame",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"IOS",
+				"Development",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"IOS",
+				"Development",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"IOS",
+				"Development",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"IOS",
+				"Shipping",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"IOS",
+				"Shipping",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"IOS",
+				"Shipping",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"IOS",
+				"Test",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"IOS",
+				"Test",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"IOS",
+				"Test",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Linux",
+				"Debug",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Linux",
+				"Debug",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Linux",
+				"Debug",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Linux",
+				"DebugGame",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Linux",
+				"DebugGame",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Linux",
+				"DebugGame",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Linux",
+				"Development",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Linux",
+				"Development",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Linux",
+				"Development",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Linux",
+				"Shipping",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Linux",
+				"Shipping",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Linux",
+				"Shipping",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Linux",
+				"Test",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Linux",
+				"Test",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"Linux",
+				"Test",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror LinuxAArch64 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"LinuxAArch64",
+				"Debug",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror LinuxAArch64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"LinuxAArch64",
+				"Debug",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror LinuxAArch64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror LinuxAArch64 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"LinuxAArch64",
+				"Debug",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror LinuxAArch64 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror LinuxAArch64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror LinuxAArch64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror LinuxAArch64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror LinuxAArch64 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"LinuxAArch64",
+				"Development",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror LinuxAArch64 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"LinuxAArch64",
+				"Development",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror LinuxAArch64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror LinuxAArch64 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"LinuxAArch64",
+				"Development",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror LinuxAArch64 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror LinuxAArch64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror LinuxAArch64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror LinuxAArch64 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror LinuxAArch64 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"LinuxAArch64",
+				"Test",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror LinuxAArch64 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"LinuxAArch64",
+				"Test",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror LinuxAArch64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror LinuxAArch64 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"LinuxAArch64",
+				"Test",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"TVOS",
+				"Debug",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"TVOS",
+				"Debug",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"TVOS",
+				"Debug",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"TVOS",
+				"DebugGame",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"TVOS",
+				"DebugGame",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"TVOS",
+				"DebugGame",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"TVOS",
+				"Development",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"TVOS",
+				"Development",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"TVOS",
+				"Development",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"TVOS",
+				"Shipping",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"TVOS",
+				"Shipping",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"TVOS",
+				"Shipping",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"TVOS",
+				"Test",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"TVOS",
+				"Test",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorror TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorror TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorror",
+				"TVOS",
+				"Test",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorrorEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorrorEditor",
+				"Linux",
+				"Debug",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorrorEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorrorEditor",
+				"Linux",
+				"Debug",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorrorEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorrorEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorrorEditor",
+				"Linux",
+				"Debug",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorrorEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorrorEditor",
+				"Linux",
+				"DebugGame",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorrorEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorrorEditor",
+				"Linux",
+				"DebugGame",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorrorEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorrorEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorrorEditor",
+				"Linux",
+				"DebugGame",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorrorEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorrorEditor",
+				"Linux",
+				"Development",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorrorEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorrorEditor",
+				"Linux",
+				"Development",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorrorEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorrorEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorrorEditor",
+				"Linux",
+				"Development",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorrorEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorrorEditor",
+				"Mac",
+				"Debug",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorrorEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorrorEditor",
+				"Mac",
+				"Debug",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorrorEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorrorEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorrorEditor",
+				"Mac",
+				"Debug",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorrorEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorrorEditor",
+				"Mac",
+				"DebugGame",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorrorEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorrorEditor",
+				"Mac",
+				"DebugGame",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorrorEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorrorEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorrorEditor",
+				"Mac",
+				"DebugGame",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorrorEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorrorEditor",
+				"Mac",
+				"Development",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorrorEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorrorEditor",
+				"Mac",
+				"Development",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CircusHorrorEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		},
+		{
+			"label": "CircusHorrorEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CircusHorrorEditor",
+				"Mac",
+				"Development",
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+			}
+		}
+	]
+}

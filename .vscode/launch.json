@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "CircusHorror (Debug)",
+			"request": "launch",
+			"preLaunchTask": "CircusHorror Linux Debug Build",
+			"program": "/home/timur/Documents/Unreal Projects/CircusHorror/Binaries/Linux/CircusHorror-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/home/timur/Programming/Tools/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CircusHorror (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "CircusHorror Linux DebugGame Build",
+			"program": "/home/timur/Documents/Unreal Projects/CircusHorror/Binaries/Linux/CircusHorror-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/home/timur/Programming/Tools/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CircusHorror (Development)",
+			"request": "launch",
+			"preLaunchTask": "CircusHorror Linux Development Build",
+			"program": "/home/timur/Documents/Unreal Projects/CircusHorror/Binaries/Linux/CircusHorror",
+			"args": [
+			],
+			"cwd": "/home/timur/Programming/Tools/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CircusHorror (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "CircusHorror Linux Shipping Build",
+			"program": "/home/timur/Documents/Unreal Projects/CircusHorror/Binaries/Linux/CircusHorror-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/home/timur/Programming/Tools/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CircusHorror (Test)",
+			"request": "launch",
+			"preLaunchTask": "CircusHorror Linux Test Build",
+			"program": "/home/timur/Documents/Unreal Projects/CircusHorror/Binaries/Linux/CircusHorror-Linux-Test",
+			"args": [
+			],
+			"cwd": "/home/timur/Programming/Tools/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CircusHorrorEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "CircusHorrorEditor Linux Debug Build",
+			"program": "/home/timur/Programming/Tools/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject"
+			],
+			"cwd": "/home/timur/Programming/Tools/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CircusHorrorEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "CircusHorrorEditor Linux DebugGame Build",
+			"program": "/home/timur/Programming/Tools/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-DebugGame",
+			"args": [
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject"
+			],
+			"cwd": "/home/timur/Programming/Tools/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CircusHorrorEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "CircusHorrorEditor Linux Development Build",
+			"program": "/home/timur/Programming/Tools/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject"
+			],
+			"cwd": "/home/timur/Programming/Tools/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/home/timur/Programming/Tools/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=/home/timur/Documents/Unreal Projects/CircusHorror/CircusHorror.uproject",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/home/timur/Programming/Tools/UnrealEngine"
+		}
+	]
+}
